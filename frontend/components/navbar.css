@@ -1,0 +1,29 @@
+.navbar {
+    z-index: 1000;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.navbar a {
+    position: relative;
+    left: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkgreen;
+    font-size: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+.navbar p {
+    font-size: 50px;
+    color: darkgreen;
+    border-left: 1px solid green;
+    padding-left: 5px;
+}

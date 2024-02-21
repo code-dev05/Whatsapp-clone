@@ -1,0 +1,124 @@
+.container {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 91.5%;
+    display: flex;
+}
+
+.left {
+    background-color: #1E1C1C;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.roomBar {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.roomBar div {
+    position: absolute;
+    right: 0;
+}
+
+.rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    transition: 0.3s;
+}
+
+.room:hover {
+    background-color: gray;
+}
+
+.right {
+    background-color: #212121;
+    width: 75%;
+    position: relative;
+}
+
+.right .header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1E1C1C;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+.right .footer {
+    background-color: #1E1C1C;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.right .footer form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.right .footer form input {
+    width: 85%;
+    height: 40px;
+    background-color: #1E1C1C;
+    color: white;
+    font-size: 15px;
+}
+
+.chats {
+    position: absolute;
+    top: 60px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.chats .sender {
+    text-align: right;
+    margin: 0;
+}
+
+.chats .sender p {
+    background-color: green;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.chats .reciever {
+    text-align: left;
+}
+
+.chats .reciever p {
+    background-color: gray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
